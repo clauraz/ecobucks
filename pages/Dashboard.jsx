@@ -8,9 +8,9 @@ export const Dashboard = () => {
     )
 
     return (
-        <div className="flex flex-col">
-            <div className='w-full h-auto flex justify-center m-10'>This is dashboard header</div>
-            <div className="flex">
+        <div className="h-screen flex flex-col bg-dashboard justify-start align-center">
+            <div className='w-full h-auto flex justify-center m-20'>This is dashboard header</div>
+            <div className="flex flex-wrap">
                 {productsList}
             </div>
         </div>

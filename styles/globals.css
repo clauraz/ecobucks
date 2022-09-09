@@ -1,5 +1,23 @@
-@import "tailwindcss/base";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-@import "tailwindcss/components";
+.bg-img {
+  background-image: url('../public/assets/bg.png');
+  background-position-y: -250px;
+  background-repeat: no-repeat;
+  background-size: 110vw;
+}
 
-@import "tailwindcss/utilities";
+.bg-dashboard {
+  background-image: url('../public/assets/bg.png');
+  background-position-y: -400px;
+  background-repeat: no-repeat;
+  background-size: 110vw;
+}
+
+.bg-product {
+  background-image: url('../public/assets/bg.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
