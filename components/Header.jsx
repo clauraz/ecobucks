@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react'
-import { animated, useSpring } from 'react-spring'
 import Image from 'next/image'
 
 const Header = () => {

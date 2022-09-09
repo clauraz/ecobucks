@@ -1,5 +1,4 @@
 import { ProductItem } from '../components/dashboard/ProductItem'
-import Header from '../components/Header'
 
 export const Dashboard = () => {
   const data = require('../pages/api/mockedProducts.json')
