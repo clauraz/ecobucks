@@ -5,7 +5,7 @@
         "newPrice": "15 lei",
         "timeFrame": "10:00 - 13:00",
         "label": "2 portii",
-        "image": "../public/assets/micDejun.png"
+        "image": "/assets/micDejun.png"
     },
     {
         "name": "Clatite",
@@ -13,7 +13,7 @@
         "newPrice": "18 lei",
         "timeFrame": "08:00 - 14:00",
         "label": "5 portii",
-        "image": "../public/assets/micDejun.png"    
+        "image": "/assets/Clatite.png"    
     },
     {
         "name": "Briosa",
@@ -21,7 +21,7 @@
         "newPrice": "18 lei",
         "timeFrame": "08:00 - 14:00",
         "label": "5 portii",
-        "image": "../public/assets/micDejun.png"    
+        "image": "/assets/Briosa.png"    
     },
     {
         "name": "Salata",
@@ -29,15 +29,15 @@
         "newPrice": "12 lei",
         "timeFrame": "11:00 - 16:00",
         "label": "7 portions",
-        "image": "../public/assets/micDejun.png" 
+        "image": "/assets/Salata.png" 
     },
     {
         "name": "Burger",
-        "oldPrice": "12",
-        "newPrice": "3",
+        "oldPrice": "8 lei",
+        "newPrice": "3 lei",
         "timeFrame": "10:00 - 13:00",
         "label": "6 portii",
-        "image": "../public/assets/micDejun.png" 
+        "image": "/assets/Burger.png" 
     },
     {
         "name": "Chiftele",
@@ -45,7 +45,15 @@
         "newPrice": "18 lei",
         "timeFrame": "08:00 - 14:00",
         "label": "5 portii",
-        "image": "../public/assets/micDejun.png" 
+        "image": "/assets/Chiftele.png" 
+    },
+    {
+        "name": "Steak",
+        "oldPrice": "23 lei",
+        "newPrice": "18 lei",
+        "timeFrame": "08:00 - 14:00",
+        "label": "5 portii",
+        "image": "/assets/Steak.png" 
     },
     {
         "name": "Smantana",
@@ -53,53 +61,37 @@
         "newPrice": "18 lei",
         "timeFrame": "08:00 - 14:00",
         "label": "5 portii",
-        "image": "../public/assets/micDejun.png" 
+        "image": "/assets/Smantana.png" 
     },
     {
         "name": "Paste",
-        "oldPrice": "12",
-        "newPrice": "3",
-        "timeFrame": "10:00 - 13:00",
-        "label": "6 portii",
-        "image": "../public/assets/micDejun.png" 
-    },
-    {
-        "name": "Banane",
-        "oldPrice": "7 lei",
+        "oldPrice": "12 lei",
         "newPrice": "4 lei",
-        "timeFrame": "12:00 - 15:00",
-        "label": "1 kg",
-        "image": "../public/assets/micDejun.png" 
-    },
-    {
-        "name": "Ciorba de Burta",
-        "oldPrice": "12",
-        "newPrice": "3",
         "timeFrame": "10:00 - 13:00",
         "label": "6 portii",
-        "image": "../public/assets/micDejun.png" 
+        "image": "/assets/Paste.png" 
     },
     {
         "name": "Somon cu Legume",
-        "oldPrice": "12",
-        "newPrice": "3",
+        "oldPrice": "12 lei",
+        "newPrice": "3 lei",
         "timeFrame": "10:00 - 13:00",
         "label": "6 portii",
-        "image": "../public/assets/micDejun.png" 
+        "image": "/assets/SomonCuLegume.png" 
     },
     {
         "name": "Burger",
-        "oldPrice": "12",
-        "newPrice": "3",
+        "oldPrice": "14 lei",
+        "newPrice": "1 lei",
         "timeFrame": "10:00 - 13:00",
         "label": "6 portii",
-        "image": "../public/assets/micDejun.png" 
+        "image": "/assets/micDejun.png" 
     },{
         "name": "Cascaval Delaco",
-        "oldPrice": "12",
-        "newPrice": "3",
+        "oldPrice": "22 lei",
+        "newPrice": "13 lei",
         "timeFrame": "10:00 - 13:00",
         "label": "6 portii",
-        "image": "../public/assets/micDejun.png" 
+        "image": "/assets/Cascaval.png" 
     }
 ]}
