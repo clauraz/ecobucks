@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export const ProductItem = ({ product }) => {
     console.log(product.image)
 
@@ -9,8 +11,16 @@ export const ProductItem = ({ product }) => {
                     <p className="m-1 font-bold text-white z-20">{product.newPrice}</p>
                 </div>
                 <div className="absolute bottom-0 right-0 flex flex-col m-2 pt-1 rounded-xl">
-                    <p className="m-1 text-white text-sm z-20">&#128342;{product.timeFrame}</p>
-                    <p className="m-1 text-white text-sm z-20">{product.label}</p>
+                    <p className="m-1 text-white text-sm z-20">
+                        <Image src="/assets/clock.svg" width="10" height="10" className="m-2" alt="clock"/>
+                        &nbsp;
+                        {product.timeFrame}
+                    </p>
+                    <p className="m-1 text-white text-sm z-20">                        
+                        <Image src="/assets/price-tag.svg" width="10" height="10" className="m-2" alt="clock"/>
+                        &nbsp;
+                        {product.label}
+                    </p>
                 </div>
                 <div className="bg-black h-full w-full opacity-25" />
             </div>
