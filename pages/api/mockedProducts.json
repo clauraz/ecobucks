@@ -1,0 +1,42 @@
+{"products":  [
+    {
+        "name": "Mic dejun",
+        "oldPrice": "20 lei",
+        "newPrice": "15 lei",
+        "timeFrame": "10:00 - 13:00",
+        "label": "2 portii",
+        "image": "base 64 image here"
+    },
+    {
+        "name": "Chiftele",
+        "oldPrice": "23 lei",
+        "newPrice": "18 lei",
+        "timeFrame": "08:00 - 14:00",
+        "label": "5 portii",
+        "image": "base 64 image here"
+    },
+    {
+        "name": "Banane",
+        "oldPrice": "7 lei",
+        "newPrice": "4 lei",
+        "timeFrame": "12:00 - 15:00",
+        "label": "1 kg",
+        "image": "base 64 image here"
+    },
+    {
+        "name": "Ciorba de Burta",
+        "oldPrice": "12",
+        "newPrice": "3",
+        "timeFrame": "10:00 - 13:00",
+        "label": "6 portii",
+        "image": "base 64 image here"
+    },
+    {
+        "name": "Salata",
+        "oldPrice": "27 lei",
+        "newPrice": "12 lei",
+        "timeFrame": "11:00 - 16:00",
+        "label": "7 portions",
+        "image": "base 64 image here"
+    }
+]}
