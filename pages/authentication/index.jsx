@@ -1,4 +1,5 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
+import Image from 'next/image'
 
 import Input from '../../components/Input'
 
@@ -48,6 +49,16 @@ const Authentication = () => {
     passwordConfirmation: '',
   })
 
+  const [active, setActive] = useState(1)
+
+  useEffect(() => {
+    if (active <= 4) {
+      setTimeout(() => setActive(active + 1), 250)
+    } else {
+      setActive(1)
+    }
+  }, [active])
+
   return (
     <div className="bg-img h-screen flex justify-center align-center">
       <div className="flex flex-col mt-28 text-2xl align-center items-center w-[1220px]">
@@ -59,7 +70,19 @@ const Authentication = () => {
             {viewMode === 'register' && <RegisterForm setRegisterDetails={setRegisterDetails} />}
           </div>
           <div className="w-[50%] h-full flex items-center justify-center bg-slate-100">
-            <p>Logo</p>
+            <Image src={`/assets/logo/Group${active}.svg`} width={240} height={240} alt="logo" />
+            <div className="flex absolute top-5 right-5 gap-[18px]">
+              <Image src="/assets/Icon ionic-ios-notifications.svg" width={32} height={32} alt="notifications" />
+              <Image src="/assets/Icon ionic-md-heart.svg" width={32} height={32} alt="heart" />
+              <Image
+                className="border-red-400 border"
+                src="/assets/Screenshot 2022-09-09 at 11.24.18.png"
+                width={32}
+                height={32}
+                alt="profile-picture"
+              />
+            </div>
+            <h2 className="text-[24px] mt-[-60px] text-[#1d1d1d]">EcoBucks</h2>
           </div>
         </div>
         <div className="w-full flex justify-center mt-20 items-center">
