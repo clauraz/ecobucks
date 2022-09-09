@@ -26,7 +26,7 @@ const Header = () => {
           alt="profile-picture"
         />
       </div>
-      <h2 className="text-[24px] mt-[-60px] text-[#1d1d1d]">EcoBux</h2>
+      <h2 className="text-[24px] mt-[-60px] text-[#1d1d1d]">EcoBucks</h2>
     </div>
   )
 }
