@@ -8,3 +8,16 @@
   background-repeat: no-repeat;
   background-size: 110vw;
 }
+
+.bg-dashboard {
+  background-image: url('../public/assets/bg.png');
+  background-position-y: -400px;
+  background-repeat: no-repeat;
+  background-size: 110vw;
+}
+
+.bg-product {
+  background-image: url('../public/assets/bg.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
