@@ -1,8 +1,10 @@
 import { Dashboard } from '../pages/Dashboard'
+import Header from '../components/Header'
 
 export default function Home() {
   return (
-    <div class="relative flex min-h-screen flex-col justify-center overflow-hidden bg-gray-50 py-6 sm:py-12">
+    <div className="bg-dashboard">
+      <Header />
       <Dashboard />
     </div>
   )

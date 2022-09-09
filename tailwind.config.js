@@ -7,10 +7,9 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {
-      colors: {
-        cgrey: '#919191',
-      },
+    extend: {},
+    fontFamily: {
+      body: ['"Open Sans"'],
     },
   },
   plugins: [],
